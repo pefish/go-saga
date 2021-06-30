@@ -3,8 +3,8 @@ package kafka
 import (
 	"github.com/Shopify/sarama"
 	"github.com/juju/errors"
-	"github.com/lysu/go-saga"
-	"github.com/lysu/go-saga/storage"
+	"github.com/pefish/go-saga"
+	"github.com/pefish/go-saga/storage"
 	"github.com/lysu/kazoo-go"
 	"strings"
 	"sync"
